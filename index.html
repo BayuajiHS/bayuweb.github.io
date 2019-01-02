@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+<div class="container">
+  <div class="gambar">
+    <a href="#"><img src="gambar.jpg"></a>
+  </div>
+</div>
+<div class="navbar">
+  <nav id="menu">
+    <label for="tm" id="toggle-menu">MENU <span class="drop-icon">▾</span></label>
+    <input type="checkbox" id="tm">
+    <ul class="main-menu clearfix">
+      <li><a href="#" id="home">HOME</a></li>
+
+      <!-- Dropdown Profil -->
+      <li><a href="#">PROFIL
+        <span class="drop-icon">▾</span>
+        <label title="Toggle Drop-down" class="drop-icon" for="sm1">▾</label>
+      </a>
+        <input type="checkbox" id="sm1">
+        <ul class="sub-menu">
+          <li><a href="#">Sambutan
+            <span class="drop-icon">▾</span>
+            <label title="Toggle Drop-down" class="drop-icon" for="sm2">▾</label>
+          </a>
+            <input type="checkbox" id="sm2">
+            <ul class="sub-menu">
+              <li><a href="#" onclick="loadDoc('konten.html',myFunction)">Kepala Sekolah Komite</a></li>
+              <li><a href="#" onclick="loadDoc('konten.html',myFunction)">Kepala Sekolah</a></li>
+            </ul>
+          </li>
+          <li><a href="#" onclick="loadDoc('konten.html',myFunction)">Sejarah/Latar Belakang Sekolah</a></li>
+        </ul>
+      </li>
+
+      <!-- Dropdown Informasi -->
+      <li><a href="#" onclick="loadDoc('konten.html',myFunction)">INFORMASI
+        <span class="drop-icon">▾</span>
+        <label title="Toggle Drop-down" class="drop-icon" for="sm1">▾</label>
+      </a>
+        <input type="checkbox" id="sm1">
+        <ul class="sub-menu">
+          <li><a href="#" onclick="loadDoc('konten.html',myFunction)">Siswa Berprestasi</a></li>
+
+        </ul>
+      </li>
+     
+      <!-- Dropdown Multimedia -->
+      <li><a href="#" onclick="loadDoc('konten.html',myFunction)">MULTIMEDIA
+        <span class="drop-icon">▾</span>
+        <label title="Toggle Drop-down" class="drop-icon" for="sm1">▾</label>
+      </a>
+        <input type="checkbox" id="sm1">
+        <ul class="sub-menu">
+          <li><a href="#" onclick="loadDoc('konten.html',myFunction)">Galeri Foto</a></li>
+        </ul>
+      </li>
+
+      <!-- Dropdown Sisfo -->
+      <li><a href="#">SISFO
+        <span class="drop-icon">▾</span>
+        <label title="Toggle Drop-down" class="drop-icon" for="sm1">▾</label>
+      </a>
+        <input type="checkbox" id="sm1">
+        <ul class="sub-menu">
+          <li><a href="#" onclick="loadDoc('konten.html',myFunction)">Artikel dan Tutorial</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</div>
+<div class="container">
+<!-- BAGIAN KIRI-->
+<section class="col-c-8" id="left-section">
+  <!-- INFORMASI -->
+  <div class="row">
+    <div class="col-c-12">
+      <h3 id="inf"><b>INFORMASI</b></h3>
+    </div>
+    <div class="col-c-6">
+      <div class="gbr">
+          <a href="#" ><img src="gambar.jpg"></a>
+      </div>
+      <div class="kata">
+        <a href="#" onclick="loadDoc('konten.html',myFunction)" style="font-size: 11px;">BERITA SEKOLAH / INFORMASI</a>
+        <br>
+        <br>
+      </div>
+      <div id="kata1">
+        <a href="#" onclick="loadDoc('konten.html',myFunction)" style="font-size: 30px; ">Rapat Kenaikan Kelas</a>
+        <br>
+        <br>
+      </div>
+      <div id="kata2">
+        <a style="font-size: 12px;">06/06/2018 - by Sugeng Budiarto - Leave a Comment
+        </a>
+        <br>
+      </div>
+      <div id="kata3">
+        <a style="font-size: 16px; ">
+          Tahun pelajaran 2017/2018 sudah hampir berakhir. 
+          Beberapa kegiatan akhir sekolah juga sudah dituntaskan. 
+          Salah satunya adalah menyelenggarakan penilaian akhir tahun (PAT) yang 
+          dilanjutkan dengan penentuan kenaikan kelas bagi siswa kelas …
+        </a>
+        <br>
+      </div>
+    </div>
+
+    <div class="col-c-6">
+      <div class="artikel-wrap:after">
+        <div style="clear: both;">
+          <div class="gbr11" style="float: left;">
+            <a href="#" onclick="loadDoc('konten.html',myFunction)"><img src="gambar.jpg"></a>
+          </div>
+          <div style="float: left;">
+            <b><a href="#" id="konten" onclick="loadDoc('konten.html',myFunction)">Kejuaraan Seni dan Olahraga</a></b>
+            <br>
+            <br>
+            <a id="tgl">06/03/2017</a>
+          </div>
+        </div>
+      </div>  
+
+      <div class="artikel-wrap:after">
+          <div style="clear: both;">
+            <div class="gbr11" style="float: left;">
+              <a href="#" onclick="loadDoc('konten.html',myFunction)"><img src="gambar.jpg"></a>
+            </div>
+            <div style="float: left;">
+              <b><a href="#" id="konten" onclick="loadDoc('konten.html',myFunction)">Penerapan E-Rapor di SMP 3</a></b>
+              <br>
+              <br>
+              <a id="tgl">06/03/2017</a>
+            </div>
+          </div>
+        </div>  
+
+        <div class="artikel-wrap:after">
+            <div style="clear: both;">
+              <div class="gbr11" style="float: left;">
+                <a href="#" onclick="loadDoc('konten.html',myFunction)"><img src="gambar.jpg"></a>
+              </div>
+              <div style="float: left;">
+                <b><a href="#" id="konten" onclick="loadDoc('konten.html',myFunction)">Penilaian Akhir Tahun</a></b>
+                <br>
+                <br>
+                <a id="tgl">06/03/2017</a>
+              </div>
+            </div>
+          </div>  
+    </div>      
+  </div>
+  <!-- PRESTASI DAN KEBANGAAN-->
+  <div class="row">
+    <div class="col-c-12">
+      <h3 id="inf"><b>PRESTASI DAN KEBANGAAN</b></h3>
+    </div>
+    <div class="col-c-4">
+        <div class="content-wrap">
+            <div class="gbr1">
+              <a href="#" onclick="loadDoc('konten.html',myFunction)"><img src="gambar.jpg"></a>
+            </div>
+            <b><a href="#" id="konten" onclick="loadDoc('konten.html',myFunction)">Kejuaraan Seni dan Olahraga</a></b>
+            <br>
+            <br>
+            <a id="tgl">06/03/2017</a>
+        </div>
+    </div>
+    <div class="col-c-4">
+        <div class="content-wrap">
+            <div class="gbr1">
+              <a href="#" onclick="loadDoc('konten.html',myFunction)"><img src="gambar.jpg"></a>
+            </div>
+            <b><a href="#" id="konten" onclick="loadDoc('konten.html',myFunction)">Peringkat I Sekolah Berintegritas Kota Semarang</a></b>
+            <br>
+            <br>
+            <a id="tgl">23/06/2016</a>
+        </div>
+    </div>
+    <div class="col-c-4">
+        <div class="content-wrap">
+            <div class="gbr1">
+              <a href="#" onclick="loadDoc('konten.html',myFunction)"><img src="gambar.jpg"></a>
+            </div>
+            <b><a href="#" id="konten" onclick="loadDoc('konten.html',myFunction)">Best Performance SNC</a></b>
+            <br>
+            <br>
+            <a id="tgl">23/05/2016</a>
+        </div>
+    </div>
+  </div>
+  <!-- ARTIKEL DAN TUTORIAL-->
+  <div class="row">
+      <div class="col-c-12">
+        <h3 id="inf"><b>ARTIKEL DAN TUTORIAL</b></h3>
+      </div>
+      <div class="col-c-4">
+        <div class="content-wrap">
+            <div class="gbr1">
+              <a href="#"><img src="gambar.jpg" onclick="loadDoc('konten.html',myFunction)"></a>
+            </div>
+            <b><a href="#" id="konten" onclick="loadDoc('konten.html',myFunction)">Kejujuran Membawa Berkah</a></b>
+            <br>
+            <br>
+            <a id="tgl">03/05/2018</a>
+        </div>
+      </div>
+      <div class="col-c-4">
+          <div class="content-wrap">
+              <div class="gbr1">
+                <a href="#" onclick="loadDoc('konten.html',myFunction)"><img src="gambar.jpg"></a>
+              </div>
+              <b><a href="#" id="konten" onclick="loadDoc('konten.html',myFunction)">Bahasa Inggris itu Sederhana dan Mudah</a></b>
+              <br>
+              <br>
+              <a id="tgl">03/05/2018</a>
+          </div>
+        </div>
+        <div class="col-c-4">
+            <div class="content-wrap">
+                <div class="gbr1">
+                  <a href="#" onclick="loadDoc('konten.html',myFunction)"><img src="gambar.jpg"></a>
+                </div>
+                <b><a href="#" id="konten" onclick="loadDoc('konten.html',myFunction)">Cara Mudah Belajar Mencintai Matematika</a></b>
+                <br>
+                <br>
+                <a id="tgl">03/05/2018</a>
+            </div>
+          </div>
+  </div>
+</section>
+
+<!-- BAGIAN KANAN-->
+<section class="col-c-4" id="right-section">
+  <!--KEPALA SEKOLAH-->
+  <div class="row">
+    <div class="col-c-12">
+      <h3 id="inf"><b>KEPALA SEKOLAH</b></h3>
+    </div>
+    <div class="gbr2">
+      <img src="gambar1.jpg">
+    </div>
+    <div class="col-c-12">
+      <div class="nama">
+          Dra. Cikgu Besar, M.Pd. S.Pd. Alm.
+        <br>
+        NIP 19600525 198202 1 004
+      </div>
+    </div>
+  </div>
+
+  <!--VIDEO-->
+  <div class="row">
+        <iframe id="video" src="https://www.youtube.com/embed/1arz9Q9qBas" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <!-- BANNER -->
+  <div class="row">
+    <div class="col-c-12">
+      <h3 id="inf"><b>BANNER TERKAIT</b></h3>
+    </div>
+    <div class="gbr3">
+      <a href="#"><img src="gambar.jpg"></a>
+    </div>
+    <div class="gbr3">
+        <a href="#"><img src="gambar.jpg"></a>
+    </div>
+  </div>
+</section>
+</div>
+<div style="clear: both">
+<footer>
+    <div class="container">
+        <!--HUBUNGI KAMI-->
+      <div class="row">
+          <div class="col-a-12 col-c-4">
+            <h3><b>HUBUNGI KAMI</b></h3>
+            <br>
+            <b>Alamat:</b>
+            <br>
+            Jl. D.I. Panjaitan 58 Semarang
+            <br>
+            <br>
+            <b>Telp/Fax:</b>
+            <br>
+            024-3541525, 024-3519955
+            <br>
+            <br>
+            <b>E-mail:</b>
+            <br>
+            smpnegeri03semarang@gmail.com
+            <br>
+            <br> 
+          </div>
+          <!--ALBUM UNGGULAN-->
+          <div class="col-a-12 col-c-4">
+            <div class="bulet-wrap">
+              <h3><b>ALBUM UNGGULAN</b></h3>
+              <a href="#">
+              <div class="bulet">
+                <img src="gambar.jpg">
+              </div>
+              <div class="bulet">
+                <img src="gambar.jpg">
+              </div>
+              <div class="bulet">
+                <img src="gambar.jpg">
+              </div>
+              <br>
+              <div class="bulet">
+                <img src="gambar.jpg">
+              </div>
+              <div class="bulet">
+                <img src="gambar.jpg">
+              </div>
+              <div class="bulet">
+                <img src="gambar.jpg">
+              </div>
+              <br>
+              <div class="bulet">
+                <img src="gambar.jpg">
+              </div>
+              <div class="bulet">
+                <img src="gambar.jpg">
+              </div>
+              <div class="bulet">
+                <img src="gambar.jpg">
+              </div>
+            </a>
+            </div>
+          </div>
+          <!--LINK PARTNER-->
+          <div class="col-a-12 col-c-4">
+              <h3><b>LINK PARTNER</b></h3>
+              <br>
+              <div class="link">
+                <a href="https://www.gmail.com/">E-mail Sekolah</a>
+                <br>
+                <br>
+                <a href="https://classroom.google.com/">E-learning</a>
+              </div>
+          </div>
+      </div>
+    </div>
+
+</div>
+</footer>
+<div class="bawah">
+    Support by: Fagya Bayuaji H.S - (A11.2017.10123)
+  </div>
+</body>
+</html>
+<article id="artikel">
+
+</article>
+

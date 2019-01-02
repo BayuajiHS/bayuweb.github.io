@@ -1,0 +1,419 @@
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    .col { 
+      width: 33.33%; 
+      float: left; 
+    }
+
+    .gambar img { 
+      width: 400px;
+      height: 180px; 
+      padding: 0.8em 1.5em;
+    }
+
+    .content-wrap{
+      padding: 1em 1.5em;
+    }
+
+    .gbr img{
+      width: 348px;
+      height: 215px; 
+      padding: 0em 1.5em;
+    }
+
+    .gbr1 img{
+      width: 200px;
+      height: 100px; 
+      padding: 0em 0em 1.5em 0em;
+    }
+    
+    .gbr11 img{
+      width: 150px;
+      height: 100px; 
+      padding: 0em 0em 1.5em 0em;
+      
+    }
+
+    .gbr2 img{
+      width: 300px;
+      height: 169px; 
+      padding: 1em 1.5em;
+    }
+
+    .gbr3 img{
+      width: 300px;
+      height: 99px; 
+      padding: 1em 1.5em;
+    }
+
+    #inf {
+      padding: 0.8em 1.3em;
+    }
+
+    .nama{
+      padding: 0em 1.5em;
+    }
+
+    .bulet img{ 
+      width: 60px; 
+      height: 60px; 
+      border-radius: 100%;
+    }
+
+    footer{
+      background-color: #00008B;
+      color: white;
+      padding: 3em 0em;
+    }
+
+    .kata a{
+      padding: 0em 2em;
+      color: red;
+      text-decoration: none;
+    }
+
+    .kata a:hover{
+      color: blue;
+    }
+
+    #kata1 a{ 
+      padding: 0em 0.7em;
+      text-decoration: none;
+      color: darkblue;
+    }
+
+    #kata2{
+      color: gray;
+      padding: 0em 1.3em;
+    }
+
+    #kata3{
+      color: black;
+      font-family: Arial;
+      padding: 0.5em 1.3em;
+    }
+
+    .bawah{
+      background-color: gray;
+      text-align: center;
+      padding: 2em 0em;
+    }
+
+    .bulet{
+      float: left;
+      padding: 0.5em 1em;
+    }
+
+    .bulet-wrap{
+      float: left;
+    }
+
+    #video{
+      width: 360px;
+      height: 315px;
+      padding: 2em 1.5em;
+    }
+
+    #home{
+      background-color: red;
+    }
+
+    #menu {
+      height: auto;
+    }
+ 
+    #menu ul {
+      margin: 0;
+      padding: 0;
+    }
+ 
+    #menu .main-menu {
+      display: none;
+    }
+ 
+    #tm:checked+.main-menu {
+      display: block;
+    }
+ 
+    #menu input[type="checkbox"],
+    #menu ul span.drop-icon {
+      display: none;
+    }
+ 
+
+ 
+    #menu li,
+    #toggle-menu {
+      border-width: 0 0 1px;
+    }
+ 
+    #menu .sub-menu {
+      background-color: #6495ED;
+      border-width: 1px 1px 0;
+      margin: 0 1em;
+    }
+ 
+    #menu .sub-menu li:last-child {
+      border-width: 0;
+    }
+ 
+    #menu li,
+    #toggle-menu,
+    #menu a {
+      position: relative;
+      display: block;
+      color: white;
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, .125);
+    }
+ 
+    #menu,
+    #toggle-menu {
+      background-color: #6495ED;
+      overflow: none;
+    }
+ 
+    #toggle-menu,
+    #menu a {
+      padding: 1em 1.5em;
+    }
+ 
+    #menu a {
+      transition: all .125s ease-in-out;
+      -webkit-transition: all .125s ease-in-out;
+    }
+ 
+    #menu a:hover {
+      background-color: red;
+      color: white;
+    }
+    
+    #konten{
+      font-family: Arial;
+      font-size: 16px;
+      color: darkblue;
+      text-decoration: none;
+    }
+
+    a#konten:hover{
+      color: red;
+    }
+
+    #tgl{
+      color: gray;
+    }
+
+    .link a:hover{
+      color: red;
+    }
+
+    .link a{
+      color: white;
+      text-decoration: none;
+    }
+    #menu .sub-menu {
+      display: none;
+    }
+ 
+    #menu input[type="checkbox"]:checked+.sub-menu{
+      display: block;
+    }
+ 
+    #menu .sub-menu a:hover {
+      color: white;
+    }
+ 
+    #toggle-menu .drop-icon,
+    #menu li label.drop-icon {
+      position: absolute;
+      right: 1.5em;
+      top: 1.25em;
+    }
+ 
+    #menu label.drop-icon,
+    #toggle-menu span.drop-icon {
+      border-radius: 50%;
+      width: 1em;
+      height: 1em;
+      text-align: center;
+      background-color: rgba(0, 0, 0, .125);
+      text-shadow: 0 0 0 transparent;
+      color: rgba(255, 255, 255, .75);
+    }
+ 
+    #menu .drop-icon {
+      line-height: 1;
+    }
+ 
+    @media only screen and (max-width: 64em) and (min-width: 52.01em) {
+      #menu li {
+        width: 33.333%;
+      }
+ 
+      #menu .sub-menu li {
+        width: auto;
+      }
+    }
+ 
+    @media only screen and (min-width: 720px) {
+      #menu {
+        background-color: #6495ED;
+        height: 50px;
+      }
+      #menu .main-menu {
+        display: block;
+      }
+ 
+      #toggle-menu,
+      #menu label.drop-icon {
+        display: none;
+      }
+ 
+      #menu ul span.drop-icon {
+        display: inline-block;
+      }
+ 
+      #menu li {
+        float: left;
+        border-width: 0 1px 0 0;
+      }
+ 
+      #menu .sub-menu li {
+        float: none;
+      }
+ 
+      #menu .sub-menu {
+        border-width: 0;
+        margin: 0;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 12em;
+        z-index: 3000;
+      }
+ 
+      #menu .sub-menu,
+      #menu input[type="checkbox"]:checked+.sub-menu {
+        display: none;
+      }
+ 
+      #menu .sub-menu li {
+        border-width: 0 0 1px;
+      }
+ 
+      #menu .sub-menu .sub-menu {
+        top: 0;
+        left: 100%;
+      }
+ 
+      #menu li:hover>input[type="checkbox"]+.sub-menu {
+        display: block;
+      }
+    }
+
+    section, header {
+      overflow: none;
+  }
+  .row:before,
+  .row:after {
+    display: table;
+    
+  }
+   
+  .row:after, section:after, header:after {
+      clear: both;
+  }
+   
+  .container {
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+   
+  @media (min-width: 768px) {
+      .container {width: 750px;}
+  }
+  @media (min-width: 992px) {
+       .container {width: 970px;}
+  }
+  @media (min-width: 1200px) {
+      .container {width: 1170px;}
+  }
+   
+  .col-a-1, .col-a-2, .col-a-3, .col-a-4, .col-a-5, .col-a-6, .col-a-7, .col-a-8, .col-a-9,
+  .col-a-10, .col-a-11, .col-a-12,.col-b-1, .col-b-2, .col-b-3, .col-b-4, .col-b-5, .col-b-6,
+  .col-b-7, .col-b-8, .col-b-9, .col-b-10, .col-b-11, .col-b-12, .col-c-1, .col-c-2, .col-c-3,
+  .col-c-4, .col-c-5, .col-c-6, .col-c-7, .col-c-8, .col-c-9, .col-c-10, .col-c-11, .col-c-12,
+  .col-d-1, .col-d-2, .col-d-3, .col-d-4, .col-d-5, .col-d-6, .col-d-7, .col-d-8, .col-d-9,
+  .col-d-10, .col-d-11, .col-d-12  {
+      float: left;
+  }
+   
+  .col-a-1, .col-a-2, .col-a-3, .col-a-4, .col-a-5, .col-a-6, .col-a-7, .col-a-8, .col-a-9,
+  .col-a-10, .col-a-11, .col-a-12,.col-b-1, .col-b-2, .col-b-3, .col-b-4, .col-b-5, .col-b-6,
+  .col-b-7, .col-b-8, .col-b-9, .col-b-10, .col-b-11, .col-b-12, .col-c-1, .col-c-2, .col-c-3,
+  .col-c-4, .col-c-5, .col-c-6, .col-c-7, .col-c-8, .col-c-9, .col-c-10, .col-c-11, .col-c-12,
+  .col-d-1, .col-d-2, .col-d-3, .col-d-4, .col-d-5, .col-d-6, .col-d-7, .col-d-8, .col-d-9,
+  .col-d-10, .col-d-11, .col-d-12 {
+      position: relative;
+  }
+  .col-a-1 {width: 8.33%;}
+  .col-a-2 {width: 16.66%;}
+  .col-a-3 {width: 25%;}
+  .col-a-4 {width: 33.33%;}
+  .col-a-5 {width: 41.66%;}
+  .col-a-6 {width: 50%;}
+  .col-a-7 {width: 58.33%;}
+  .col-a-8 {width: 66.66%;}
+  .col-a-9 {width: 75%;}
+  .col-a-10 {width: 83.33%;}
+  .col-a-11 {width: 91.66%;}
+  .col-a-12 {width: 100%;}
+   
+  @media screen and (min-width: 768px) {
+      .col-b-1 {width: 8.33%;}
+      .col-b-2 {width: 16.66%;}
+      .col-b-3 {width: 25%;}
+      .col-b-4 {width: 33.33%;}
+      .col-b-5 {width: 41.66%;}
+      .col-b-6 {width: 50%;}
+      .col-b-7 {width: 58.33%;}
+      .col-b-8 {width: 66.66%;}
+      .col-b-9 {width: 75%;}
+      .col-b-10 {width: 83.33%;}
+      .col-b-11 {width: 91.66%;}
+      .col-b-12 {width: 100%;}
+  }
+   
+  @media screen and (min-width: 992px){
+      .col-c-1 {width: 8.33%;}
+      .col-c-2 {width: 16.66%;}
+      .col-c-3 {width: 25%;}
+      .col-c-4 {width: 33.33%;}
+      .col-c-5 {width: 41.66%;}
+      .col-c-6 {width: 50%;}
+      .col-c-7 {width: 58.33%;}
+      .col-c-8 {width: 66.66%;}
+      .col-c-9 {width: 75%;}
+      .col-c-10 {width: 83.33%;}
+      .col-c-11 {width: 91.66%;}
+      .col-c-12 {width: 100%;}
+  }
+   
+  @media screen and (min-width: 1200px) {
+      .col-d-1 {width: 8.33%;}
+      .col-d-2 {width: 16.66%;}
+      .col-d-3 {width: 25%;}
+      .col-d-4 {width: 33.33%;}
+      .col-d-5 {width: 41.66%;}
+      .col-d-6 {width: 50%;}
+      .col-d-7 {width: 58.33%;}
+      .col-d-8 {width: 66.66%;}
+      .col-d-9 {width: 75%;}
+      .col-d-10 {width: 83.33%;}
+      .col-d-11 {width: 91.66%;}
+      .col-d-12 {width: 100%;}
+  }
